@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/mint.png" type="image/x-icon">
+    <title>Jack's Ice Cream Delight</title>
+</head>
+<body>
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <span class="close" id="close">&times;</span>
+            <h2>Welcome to Jack's Ice Cream Delight!</h2>
+            <p>Unfortunately, Jack isn't here! We don't know where he is :(</p>
+            <p>But you can still enjoy the website... if you dare!</p>
+        </div>
+    </div>
+    <div id="momo"></div>
+    <div class="navbar">
+        <a href="#home" id="link-home">Home</a>
+        <a href="#flavors" id="link-flavors">Flavors</a>
+        <a href="#scream" id="link-scream" onclick="scream()">Ice Cream?</a>
+        <a href="https://hack.club/boba-manor" style="display:none;" id="boba-manor">Open the door</a>
+    </div>
+    <div class="content" id="home">
+        <h1>Welcome to Ice Cream Delight!</h1>
+        <p>Your favorite place for delicious ice cream... or is it?</p>
+        <p>Choose from our variety of flavors and enjoy the scream!</p>
+    </div>
+    <div class="content" id="flavors" style="display:none;">
+        <h1>Our Flavors</h1>
+        <p>We have a variety of flavors to choose from... if you dare!</p>
+        <!-- 3x3 grid -->
+        <div class="flavors">
+            <div class="flavor">
+                <img src="images/chocolate.png" alt="Chocolate">
+                <h3>Dark Chocolate</h3>
+            </div>
+            <div class="flavor">
+                <img src="images/vanilla.png" alt="Vanilla">
+                <h3>Ghostly Vanilla</h3>
+            </div>
+            <div class="flavor">
+                <img src="images/strawberry.png" alt="Strawberry">
+                <h3>Bloody Strawberry</h3>
+            </div>
+            <div class="flavor">
+                <img src="images/mint.png" alt="Mint">
+                <h3>Haunted Mint</h3>
+            </div>
+            <div class="flavor">
+                <img src="images/caramel.png" alt="Caramel">
+                <h3>Sinister Caramel</h3>
+            </div>
+            <div class="flavor">
+                <img src="images/cookie.png" alt="Cookie">
+                <h3>Spooky Cookie 🇬🇧🇬🇧🇬🇧</h3>
+            </div>
+        </div>
+    </div>
+    <div class="content" id="scream" style="display:none;">
+        <h1>Ice Cream?</h1>
+        <p>You scream! We all scream... forever!</p>
+    </div>
+    <div class="blood-container">
+        <div class="blood-drop"></div>
+        <div class="blood-drop"></div>
+        <div class="blood-drop"></div>
+        <div class="blood-drop"></div>
+        <div class="blood-drop"></div>
+        <div class="blood-drop"></div>
+        <div class="blood-drop"></div>
+        <div class="blood-drop"></div>
+        <div class="blood-drop"></div>
+    </div>
+    <div id="pool"></div>
+    <script src="script.js"></script>
+</body>
+</html>
