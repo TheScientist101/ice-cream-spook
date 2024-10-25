@@ -104,7 +104,7 @@ setInterval(function() {
         pool.style.top = '0%';
         pool.style.height = '100%';
     } else {
-        pool.style.top = parseFloat(pool.style.top) - 0.01 + '%';
-        pool.style.height = parseFloat(pool.style.height) + 0.01 + '%';
+        pool.style.top = parseFloat(pool.style.top) - 0.002 + '%';
+        pool.style.height = parseFloat(pool.style.height) + 0.002 + '%';
     }
 }, 10);
